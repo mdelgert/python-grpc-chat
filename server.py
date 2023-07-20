@@ -3,9 +3,8 @@ from concurrent import futures
 import grpc
 import time
 
-import proto.chat_pb2 as chat
-import proto.chat_pb2_grpc as rpc
-
+import chat_pb2 as chat
+import chat_pb2_grpc as rpc
 
 class ChatServer(rpc.ChatServerServicer):  # inheriting here from the protobuf rpc file which is generated
 

@@ -1,3 +1,10 @@
+# Requires installing
+```bash
+sudo apt-get install python3-tk
+```
+
+[forked from](https://github.com/melledijkstra/python-grpc-chat)
+
 # Python gRPC Chat
 Chat application created with gRPC. This was a study for bidirectional gRPC streaming.
 

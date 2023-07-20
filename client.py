@@ -4,8 +4,8 @@ from tkinter import simpledialog
 
 import grpc
 
-import proto.chat_pb2 as chat
-import proto.chat_pb2_grpc as rpc
+import chat_pb2 as chat
+import chat_pb2_grpc as rpc
 
 address = 'localhost'
 port = 11912
